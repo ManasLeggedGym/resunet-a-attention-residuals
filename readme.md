@@ -1,5 +1,6 @@
 # ResUNet-a: a deep learning framework for semantic segmentation of remotely sensed data
 
+## will be modifying the model by replacing usual residual connections with attention residuals
 This repository contains source code for some of the models used in the manuscript of the ([ResUNet-a](https://arxiv.org/abs/1904.00592)) paper. ResUNet-a is built with the [mxnet](https://mxnet.incubator.apache.org/) DL framework, under the gluon api. 
 
 
