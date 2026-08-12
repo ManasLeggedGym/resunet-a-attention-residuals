@@ -1,6 +1,6 @@
 ## Literature 
 - [x] Understand the ResUnet arch (09/08)
-- [ ] Understand attention residuals (09/08)
+- [x] Understand attention residuals (09/08)
 - [ ] Have a discussion with the group to explain what you have understood - @Om needs to be there
 
 ## Edits in Code
