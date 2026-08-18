@@ -1,0 +1,75 @@
+10.1s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+10.1s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+10.1s 3 0.00s - to python to disable frozen modules.
+10.1s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+10.8s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+10.8s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+10.8s 7 0.00s - to python to disable frozen modules.
+10.8s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+12.3s 9 /kaggle/input/datasets/balraj98/massachusetts-roads-dataset -> ['label_class_dict.csv', 'metadata.csv']
+12.3s 10 /kaggle/input/datasets/balraj98/massachusetts-roads-dataset/tiff -> []
+12.3s 11 /kaggle/input/datasets/balraj98/massachusetts-roads-dataset/tiff/val_labels -> ['10978735_15.tif', '10228690_15.tif', '24328810_15.tif', '22528900_15.tif', '25229230_15.tif']
+12.3s 12 /kaggle/input/datasets/balraj98/massachusetts-roads-dataset/tiff/test_labels -> ['26578720_15.tif', '23278930_15.tif', '10378780_15.tif', '22078975_15.tif', '11278840_15.tif']
+12.3s 13 /kaggle/input/datasets/balraj98/massachusetts-roads-dataset/tiff/val -> ['21929020_15.tiff', '10978735_15.tiff', '24328810_15.tiff', '23128930_15.tiff', '22829035_15.tiff']
+13.4s 14 /kaggle/input/datasets/balraj98/massachusetts-roads-dataset/tiff/train_labels -> ['24778855_15.tif', '24928900_15.tif', '10828825_15.tif', '21778960_15.tif', '25979290_15.tif']
+13.4s 15 /kaggle/input/datasets/balraj98/massachusetts-roads-dataset/tiff/test -> ['11278840_15.tiff', '18328735_15.tiff', '24628885_15.tiff', '23878540_15.tiff', '22528885_15.tiff']
+14.2s 16 /kaggle/input/datasets/balraj98/massachusetts-roads-dataset/tiff/train -> ['17428735_15.tiff', '23578780_15.tiff', '24178540_15.tiff', '12178705_15.tiff', '23278960_15.tiff']
+137.8s 17 [train] checked 1108 files, 0 problematic
+139.2s 18 [val] checked 14 files, 0 problematic
+139.2s 19 Train samples: 1108 | Val samples: 14
+878.3s 20 Epoch 001/30 | 731.7s | train_loss=0.5120 train_iou=0.1719 train_dice=0.2568 | val_loss=0.3991 val_iou=0.2724 val_dice=0.4046 | lr=2.99e-04
+879.9s 21 -> saved new best checkpoint (val_iou=0.2724)
+1618.0s 22 Epoch 002/30 | 737.8s | train_loss=0.4162 train_iou=0.2536 train_dice=0.3609 | val_loss=0.3525 val_iou=0.3285 val_dice=0.4677 | lr=2.97e-04
+1620.7s 23 -> saved new best checkpoint (val_iou=0.3285)
+2358.9s 24 Epoch 003/30 | 738.0s | train_loss=0.3862 train_iou=0.2754 train_dice=0.3811 | val_loss=0.3151 val_iou=0.3731 val_dice=0.5118 | lr=2.93e-04
+2361.5s 25 -> saved new best checkpoint (val_iou=0.3731)
+3100.1s 26 Epoch 004/30 | 738.3s | train_loss=0.3599 train_iou=0.3110 train_dice=0.4234 | val_loss=0.2944 val_iou=0.4167 val_dice=0.5603 | lr=2.87e-04
+3102.6s 27 -> saved new best checkpoint (val_iou=0.4167)
+3841.1s 28 Epoch 005/30 | 738.2s | train_loss=0.3519 train_iou=0.3329 train_dice=0.4453 | val_loss=0.2899 val_iou=0.4892 val_dice=0.6306 | lr=2.80e-04
+3843.7s 29 -> saved new best checkpoint (val_iou=0.4892)
+4582.6s 30 Epoch 006/30 | 738.8s | train_loss=0.3354 train_iou=0.3549 train_dice=0.4680 | val_loss=0.2799 val_iou=0.5070 val_dice=0.6508 | lr=2.71e-04
+4585.4s 31 -> saved new best checkpoint (val_iou=0.5070)
+5325.3s 32 Epoch 007/30 | 739.5s | train_loss=0.3255 train_iou=0.3809 train_dice=0.4925 | val_loss=0.2582 val_iou=0.5509 val_dice=0.6919 | lr=2.61e-04
+5328.0s 33 -> saved new best checkpoint (val_iou=0.5509)
+6067.6s 34 Epoch 008/30 | 739.4s | train_loss=0.3184 train_iou=0.4114 train_dice=0.5230 | val_loss=0.2492 val_iou=0.5597 val_dice=0.6966 | lr=2.50e-04
+6070.5s 35 -> saved new best checkpoint (val_iou=0.5597)
+6810.9s 36 Epoch 009/30 | 740.2s | train_loss=0.3157 train_iou=0.4063 train_dice=0.5163 | val_loss=0.2450 val_iou=0.5699 val_dice=0.7098 | lr=2.38e-04
+6813.8s 37 -> saved new best checkpoint (val_iou=0.5699)
+7553.4s 38 Epoch 010/30 | 739.6s | train_loss=0.3082 train_iou=0.4246 train_dice=0.5338 | val_loss=0.2482 val_iou=0.5575 val_dice=0.6953 | lr=2.25e-04
+8293.2s 39 Epoch 011/30 | 739.6s | train_loss=0.3129 train_iou=0.4147 train_dice=0.5223 | val_loss=0.2293 val_iou=0.6134 val_dice=0.7507 | lr=2.11e-04
+8295.8s 40 -> saved new best checkpoint (val_iou=0.6134)
+9035.3s 41 Epoch 012/30 | 739.5s | train_loss=0.3021 train_iou=0.4253 train_dice=0.5350 | val_loss=0.2275 val_iou=0.6019 val_dice=0.7375 | lr=1.96e-04
+9775.0s 42 Epoch 013/30 | 739.6s | train_loss=0.3030 train_iou=0.4381 train_dice=0.5467 | val_loss=0.2228 val_iou=0.6022 val_dice=0.7394 | lr=1.81e-04
+10514.7s 43 Epoch 014/30 | 739.7s | train_loss=0.3008 train_iou=0.4525 train_dice=0.5595 | val_loss=0.2226 val_iou=0.6117 val_dice=0.7480 | lr=1.66e-04
+11254.3s 44 Epoch 015/30 | 739.6s | train_loss=0.3019 train_iou=0.4550 train_dice=0.5623 | val_loss=0.2284 val_iou=0.6039 val_dice=0.7414 | lr=1.50e-04
+11994.1s 45 Epoch 016/30 | 739.8s | train_loss=0.2984 train_iou=0.4480 train_dice=0.5532 | val_loss=0.2282 val_iou=0.6006 val_dice=0.7353 | lr=1.34e-04
+12733.6s 46 Epoch 017/30 | 739.5s | train_loss=0.2962 train_iou=0.4576 train_dice=0.5630 | val_loss=0.2290 val_iou=0.5959 val_dice=0.7304 | lr=1.19e-04
+13473.1s 47 Epoch 018/30 | 739.5s | train_loss=0.2999 train_iou=0.4575 train_dice=0.5593 | val_loss=0.2318 val_iou=0.5941 val_dice=0.7322 | lr=1.04e-04
+14212.5s 48 Epoch 019/30 | 739.2s | train_loss=0.2917 train_iou=0.4735 train_dice=0.5802 | val_loss=0.2153 val_iou=0.6176 val_dice=0.7508 | lr=8.90e-05
+14215.2s 49 -> saved new best checkpoint (val_iou=0.6176)
+14954.7s 50 Epoch 020/30 | 739.2s | train_loss=0.2933 train_iou=0.4607 train_dice=0.5672 | val_loss=0.2151 val_iou=0.6269 val_dice=0.7592 | lr=7.50e-05
+14957.4s 51 -> saved new best checkpoint (val_iou=0.6269)
+15696.6s 52 Epoch 021/30 | 739.3s | train_loss=0.2927 train_iou=0.4677 train_dice=0.5723 | val_loss=0.2089 val_iou=0.6245 val_dice=0.7579 | lr=6.18e-05
+16435.9s 53 Epoch 022/30 | 739.3s | train_loss=0.2874 train_iou=0.4745 train_dice=0.5812 | val_loss=0.2114 val_iou=0.6252 val_dice=0.7577 | lr=4.96e-05
+17175.6s 54 Epoch 023/30 | 739.5s | train_loss=0.2859 train_iou=0.4843 train_dice=0.5903 | val_loss=0.2122 val_iou=0.6276 val_dice=0.7598 | lr=3.85e-05
+17178.3s 55 -> saved new best checkpoint (val_iou=0.6276)
+17917.8s 56 Epoch 024/30 | 739.3s | train_loss=0.2806 train_iou=0.4791 train_dice=0.5873 | val_loss=0.2076 val_iou=0.6350 val_dice=0.7657 | lr=2.86e-05
+17920.4s 57 -> saved new best checkpoint (val_iou=0.6350)
+18659.9s 58 Epoch 025/30 | 739.2s | train_loss=0.2831 train_iou=0.4787 train_dice=0.5862 | val_loss=0.1844 val_iou=0.6358 val_dice=0.7674 | lr=2.01e-05
+18662.6s 59 -> saved new best checkpoint (val_iou=0.6358)
+19402.1s 60 Epoch 026/30 | 739.5s | train_loss=0.2828 train_iou=0.4864 train_dice=0.5902 | val_loss=0.1741 val_iou=0.6295 val_dice=0.7621 | lr=1.30e-05
+20141.8s 61 Epoch 027/30 | 739.5s | train_loss=0.2906 train_iou=0.4870 train_dice=0.5886 | val_loss=0.1913 val_iou=0.6411 val_dice=0.7718 | lr=7.34e-06
+20144.6s 62 -> saved new best checkpoint (val_iou=0.6411)
+20885.0s 63 Epoch 028/30 | 740.2s | train_loss=0.2891 train_iou=0.4795 train_dice=0.5834 | val_loss=0.1905 val_iou=0.6427 val_dice=0.7729 | lr=3.28e-06
+20887.4s 64 -> saved new best checkpoint (val_iou=0.6427)
+21627.0s 65 Epoch 029/30 | 739.6s | train_loss=0.2830 train_iou=0.4780 train_dice=0.5830 | val_loss=0.1969 val_iou=0.6405 val_dice=0.7711 | lr=8.22e-07
+22367.4s 66 Epoch 030/30 | 740.4s | train_loss=0.2868 train_iou=0.4771 train_dice=0.5813 | val_loss=0.1860 val_iou=0.6393 val_dice=0.7702 | lr=0.00e+00
+22367.4s 67 Training complete. Best val IoU: 0.6427
+22373.8s 68 /usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+22373.8s 69 cells[i][c] = re.sub('\\\\\|', '|', cell)
+22374.0s 70 /usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+22374.0s 71 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+22374.7s 72 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+22375.0s 73 [NbConvertApp] Writing 29416 bytes to __notebook__.ipynb
+22377.4s 74 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+22378.3s 75 [NbConvertApp] Writing 375357 bytes to __results__.html
